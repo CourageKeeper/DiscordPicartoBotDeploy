@@ -126,7 +126,7 @@ setInterval(() => {
         var reply = JSON.parse(request.responseText);
 
         if(reply.is_online !== serverStateCollection.get(listOfServers.servers[i].id).get(servConfig.streamers[n].name)) { //if there has been a change
-          if(reply.is_online){ //if going to online, post about it and set state to online
+          if(reply.is_online && !serverStateCollection.get(listOfServers.servers[i].id).get(servConfig.streamers[n].name)){ //if going to online, post about it and set state to online
             nameAndState.set(servConfig.streamers[n].name, true);
             guild.channels.get(servConfig.botChannelID).sendMessage("@here " + reply.channel + " is now streaming! Check it out here: " + servConfig.streamers[n].streamLink);
           }
