@@ -1,6 +1,7 @@
 {
   "servers" : [
     {"id" : "245361013879341066", "name" : "NERV HQ", "config" : "./serverConfig/NERV_HQ.json"},
-    {"id" : "285570525403545602", "name" : "Portal to Hades", "config" : "./serverConfig/Portal_To_Hades.json"}
+    {"id" : "285570525403545602", "name" : "Portal to Hades", "config" : "./serverConfig/Portal_To_Hades.json"},
+    {"id" : "239242464286736384", "name" : "SpaceObjects", "config" : "./serverConfig/SpaceObjects.json"}
   ]
 }
