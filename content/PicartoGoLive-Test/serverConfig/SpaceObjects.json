@@ -6,6 +6,7 @@
   "streamers" : [
     {"name" : "Doug7070", "APILink" : "https://api.picarto.tv/channel/8098449b-0ab1-11e7-bebf-005056984bd4", "streamLink" : "https://picarto.tv/Doug7070"},
     {"name" : "Daroneasa", "APILink" : "https://api.picarto.tv/channel/007de02d-1efe-11e7-bebf-005056984bd4", "streamLink" : "https://picarto.tv/Daroneasa"},
-    {"name" : "Rain", "APILink" : "https://api.picarto.tv/channel/c61584f7-1f1c-11e7-bebf-005056984bd4", "streamLink" : "https://picarto.tv/SRain"}
+    {"name" : "Rain", "APILink" : "https://api.picarto.tv/channel/c61584f7-1f1c-11e7-bebf-005056984bd4", "streamLink" : "https://picarto.tv/SRain"},
+    {"name" : "Foxbride", "APILink" "https://api.picarto.tv/channel/24aa6b9e-20bf-11e7-bebf-005056984bd4", "streamLink" : "https://picarto.tv/foxbride"}
   ]
 }
